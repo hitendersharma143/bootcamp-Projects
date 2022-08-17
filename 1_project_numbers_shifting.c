@@ -249,9 +249,9 @@ int game(char name[])
         }
         for (i = 0; i <= 20; i++)
             printf("-");
+        k=0;
         for (i = 0; i < 4; i++)
         {
-            k = 0;
             for (j = 0; j < 4; j++)
             {
                 if (a[i][j] == c[i][j])
